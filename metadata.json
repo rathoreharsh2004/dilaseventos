@@ -1,0 +1,6 @@
+{
+  "name": "Dilas Eventos | Diseño y Producción de Eventos",
+  "description": "Sitio web de experiencias 3D cinematográficas y cotización para Dilas Eventos en Fusagasugá – Sumapaz, Colombia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

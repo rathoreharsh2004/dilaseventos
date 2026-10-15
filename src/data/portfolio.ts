@@ -1,0 +1,88 @@
+import { PortfolioItem } from '../types/index.ts';
+
+export const PORTFOLIO_ITEMS: PortfolioItem[] = [
+  {
+    id: 'boda-hacienda-sumapaz',
+    title: 'Boda Campestre Sumapaz Imperial',
+    category: 'boda',
+    categoryLabel: 'Boda de Ensueño',
+    location: 'Hacienda Campestre, Fusagasugá',
+    year: '2026',
+    guestCount: '160 invitados',
+    description:
+      'Ceremonia al aire libre enmarcada por montañas andinas con un arco floral escultural de rosas blancas y orquídeas colombianas. Cena a 4 tiempos bajo una carpa transparente con más de 2.000 luces cálidas suspendidas.',
+    palette: ['#F7F1E1', '#D4A96B', '#3D4A3E', '#1C1916'],
+    imageSrc: 'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80',
+    aspectRatio: 'wide',
+  },
+  {
+    id: 'quinceanera-jardin-cristal',
+    title: 'Gala XV Jardín de Cristal',
+    category: 'quinceanera',
+    categoryLabel: 'Quinceañera',
+    location: 'Salón de Eventos Principal, Fusagasugá',
+    year: '2026',
+    guestCount: '120 invitados',
+    description:
+      'Diseño temático contemporáneo que fusionó hortensias preservadas, iluminación perimetral en tonos champán y orquídea, pista central espejada y mesa de dulces con piezas de repostería de autor.',
+    palette: ['#FAF7F2', '#E2C597', '#9D84B7', '#12100E'],
+    imageSrc: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1200&q=80',
+    aspectRatio: 'tall',
+  },
+  {
+    id: 'corporativo-cumbre-empresarial',
+    title: 'Cumbre Empresarial & Gala Anual',
+    category: 'corporativo',
+    categoryLabel: 'Corporativo',
+    location: 'Centro de Convenciones, Fusagasugá',
+    year: '2025',
+    guestCount: '250 asistentes',
+    description:
+      'Escenografía volumétrica con cortes geométricos en madera laqueada y latón, pantalla central de 8 metros para conferencias plenarias y transición fluida hacia una cena de gala con cuarteto de cuerdas en vivo.',
+    palette: ['#0A0908', '#D4A96B', '#4A5568', '#FFFFFF'],
+    imageSrc: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=1200&q=80',
+    aspectRatio: 'square',
+  },
+  {
+    id: 'detalles-mesas-imperial',
+    title: 'Curaduría de Mesas & Cristalería',
+    category: 'detalles',
+    categoryLabel: 'Montajes & Detalles',
+    location: 'Hacienda La Quinta, Chinauta',
+    year: '2026',
+    guestCount: 'Diseño de Vajilla',
+    description:
+      'Detalles macro de vajilla de porcelana con filo dorado, copas de cristal tallado a mano, cubertería de latón cepillado y servilletas de lino natural bordadas individualmente con monograma de la pareja.',
+    palette: ['#FCF9F2', '#C5924B', '#603D29', '#E8E0D3'],
+    imageSrc: 'https://images.unsplash.com/photo-1532712938310-34cb3982ef74?auto=format&fit=crop&w=1200&q=80',
+    aspectRatio: 'tall',
+  },
+  {
+    id: 'boda-chinauta-crepusculo',
+    title: 'Recepción Crepúsculo en Chinauta',
+    category: 'boda',
+    categoryLabel: 'Boda de Ensueño',
+    location: 'Finca Los Samanes, Chinauta',
+    year: '2025',
+    guestCount: '190 invitados',
+    description:
+      'Celebración en clima cálido con palmeras iluminadas mediante focos uplight cálidos, barras de coctelería botánica en madera teca y pista de baile con piso negro piano y techo de follaje suspendido.',
+    palette: ['#1C1916', '#AF783C', '#2E4034', '#FAF7F2'],
+    imageSrc: 'https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=1200&q=80',
+    aspectRatio: 'wide',
+  },
+  {
+    id: 'intimo-aniversario-oro',
+    title: 'Aniversario de Oro & Cena Íntima',
+    category: 'intimo',
+    categoryLabel: 'Celebración Íntima',
+    location: 'Residencia Privada, Fusagasugá',
+    year: '2026',
+    guestCount: '35 invitados',
+    description:
+      'Mesa imperial para 35 comensales con camino de mesa de eucalipto baby blue, rosas de jardín marfil y candelabros de bronce macizo de diferentes alturas para crear una atmósfera de intimidad suprema.',
+    palette: ['#F4EFE6', '#D4A96B', '#73492E', '#3D3732'],
+    imageSrc: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1200&q=80',
+    aspectRatio: 'square',
+  },
+];
